@@ -2,7 +2,7 @@ from azure.identity import DefaultAzureCredential
 from azure.mgmt.resource import ResourceManagementClient
 
 credential = DefaultAzureCredential()
-subscription_id = "7918c024-3923-42b5-afaa-7051ae1391a9"
+subscription_id = "REDACTED"
 
 client = ResourceManagementClient(credential, subscription_id)
 
